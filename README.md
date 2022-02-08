@@ -45,3 +45,4 @@ optimized.py
 ```
 
 Do note you need to have the "data.csv" file in the same folder as the "bruteforce.py" file if you want to run the bruteforce script.
+The "optimized.py" is expecting to read a csv file.
