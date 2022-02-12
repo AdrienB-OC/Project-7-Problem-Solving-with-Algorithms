@@ -35,8 +35,6 @@ def find_optimal_bruteforce(stock_price, value_after):
     for val in optimal_buy:
         stocks += (get_keys_from_value(stock_price, val))
 
-    percentage_increase = (optimal_return /
-                           initial_investment) * 100 - 100
     print("Bought :")
     for stock in stocks:
         print(stock)
